@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-color: #f6f8f9;
     margin: 0px;
     font-family: 'Lato', sans-serif;
 }
@@ -12,18 +12,59 @@ body{
 /* HEADER  */
 header{
     background-color: white;
-    padding: 15px;
+
+    height: 60px;
+    margin-bottom: 2em;
 }
 header img{
     /* Positioning  */
     vertical-align: middle;
-    left: 20px;
+    height: 70%;
+    margin-left: 15px;
 }
 h1{
     /* Positioning  */
     vertical-align: middle;
     display: inline-block;
+    font-size: 3em;
+    font-weight: 900;
 
     /* Size  */
     margin: 0px 5px;
+}
+
+/* MAIN  */
+main{
+    background-color: white;
+    border-radius: 10px;
+
+    width: 65%;
+
+    margin: 20px auto;
+    padding: 15px 0px 1.5em;
+}
+hr{
+   border: 1px solid rgba(128, 128, 128, 0.151);
+}
+.narrowBox{
+    padding: 0px 12%;
+}
+
+.navButton{
+    background-color: transparent;
+
+    height: 2em;
+    border: 1px solid gray;
+    border-radius: 5px; 
+    margin: 0px 1px;
+    padding: 0px 0.6em;
+
+    color: gray;
+    font-size: small;
+    font-weight: 500;
+}
+#buttonAddTask, .navButton:hover{
+    background-color: #47adf1;
+    color: white;
+    border: 0px;
 }
