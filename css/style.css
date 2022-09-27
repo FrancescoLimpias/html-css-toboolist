@@ -77,12 +77,21 @@ hr{
     margin-top: 2.2em;
 }
 .section > h3{
+    display: inline-block;
+
+    margin: 0px;
+    padding: 1px 10px 0px 3px;
+    border-radius: 10px;
+
     color: rgb(58, 57, 57);
     font-weight: bold;
-    margin: 0px;
 }
 .section > h3:before{
     content: ' \25BC\0020';
+}
+.section > h3:hover{
+    background-color: #5259839c;
+    color: white;
 }
 
 /* Task Name */
