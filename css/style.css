@@ -1,3 +1,29 @@
+/* GENERAL SETUP  */
 *{
     box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* HEADER  */
+header{
+    background-color: white;
+    padding: 15px;
+}
+header img{
+    /* Positioning  */
+    vertical-align: middle;
+    left: 20px;
+}
+h1{
+    /* Positioning  */
+    vertical-align: middle;
+    display: inline-block;
+
+    /* Size  */
+    margin: 0px 5px;
 }
