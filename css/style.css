@@ -14,7 +14,7 @@ header{
     background-color: white;
 
     height: 60px;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 header img{
     /* Positioning  */
@@ -41,7 +41,7 @@ main{
     width: 65%;
 
     margin: 20px auto;
-    padding: 15px 0px 1.5em;
+    padding: 15px 0px 2em;
 }
 hr{
    border: 1px solid rgba(128, 128, 128, 0.151);
@@ -72,10 +72,10 @@ hr{
 
 
 /* SECTIONS */
-#SECTIONS{
-    padding-top: 20px;
-}
 /* Section Name  */
+.section{
+    margin-top: 2.2em;
+}
 .section > h3{
     color: rgb(58, 57, 57);
     font-weight: bold;
@@ -91,27 +91,19 @@ hr{
 }
 .task:before{
     display: inline-block;
-    width: 22px;
-
-    text-align: center;
-    color: red;
-    content: "\2717\0020";
+    width: 15px;
 
     border: 1px solid;
     border-radius: 50%;
+    margin-right: 5px;
+
+    font-size: 10px;
+    text-align: center;
+
+    color: red;
+    content: "\2717";
 }
 .checked.task:before{
     color: green;
-    content: "\2713\0020";
-}
-
-/* Tag  */
-.tag{
-    background-color: orange;
-
-    color: white;
-    font-size: 0.6em;
-
-    padding: 6px 13px;
-    border-radius: 12px;
+    content: "\2713";
 }

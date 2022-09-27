@@ -1,0 +1,52 @@
+
+
+/* TAGS  */
+.tag{
+    color: white;
+    font-size: 0.6em;
+
+    padding: 6px 13px;
+    border-radius: 12px;
+}
+
+.tag.editorial{
+    background-color: #47adf1;
+}
+.tag.editorial:before{
+    content: "Editorial";
+}
+
+.tag.goals{
+    background-color: violet;
+}
+.tag.goals:before{
+    content: "Goals";
+}
+
+.tag.recruiting{
+    background-color: green;
+}
+.tag.recruiting:before{
+    content: "Recruiting";
+}
+
+.tag.mobile{
+    background-color: orange;
+}
+.tag.mobile:before{
+    content: "Mobile";
+}
+
+.tag.website{
+    background-color: purple;
+}
+.tag.website:before{
+    content: "Website";
+}
+
+.tag.sales{
+    background-color: #008044;
+}
+.tag.sales:before{
+    content: "Sales";
+}
