@@ -50,6 +50,7 @@ hr{
     padding: 0px 12%;
 }
 
+/* NAV  */
 .navButton{
     background-color: transparent;
 
@@ -67,4 +68,50 @@ hr{
     background-color: #47adf1;
     color: white;
     border: 0px;
+}
+
+
+/* SECTIONS */
+#SECTIONS{
+    padding-top: 20px;
+}
+/* Section Name  */
+.section > h3{
+    color: rgb(58, 57, 57);
+    font-weight: bold;
+    margin: 0px;
+}
+.section > h3:before{
+    content: ' \25BC\0020';
+}
+
+/* Task Name */
+.task{
+    margin: 10px 2% 1em;
+}
+.task:before{
+    display: inline-block;
+    width: 22px;
+
+    text-align: center;
+    color: red;
+    content: "\2717\0020";
+
+    border: 1px solid;
+    border-radius: 50%;
+}
+.checked.task:before{
+    color: green;
+    content: "\2713\0020";
+}
+
+/* Tag  */
+.tag{
+    background-color: orange;
+
+    color: white;
+    font-size: 0.6em;
+
+    padding: 6px 13px;
+    border-radius: 12px;
 }
