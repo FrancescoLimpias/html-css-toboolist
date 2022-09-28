@@ -94,7 +94,7 @@ hr{
     font-weight: bold;
 }
 .section > h3:before{
-    content: ' \25BC\0020';
+    content: ' \25BE\0020';
 }
 .section > h3:hover{
     background-color: #5259839c;
